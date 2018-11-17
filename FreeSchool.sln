@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{61A32896-44EE-4447-BE13-4B7EF4287BB7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{86475EE7-912E-4C38-B5FA-ED8A76B867EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{2C8C795E-1BE1-4C9C-860E-7ADD78E730D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{518D01A3-D4D8-4147-A518-9D413A03A96A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{9CAB1C94-D070-4649-992F-5AF365D14DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{F187E5B6-39A9-4B8C-95F1-68AF260E65B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Application.Web", "FreeSchool.Application.Web\FreeSchool.Application.Web.csproj", "{B448B531-25D1-49E1-A272-F2B6B686A8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Domain", "FreeSchool.Domain\FreeSchool.Domain.csproj", "{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{E34BFB34-7CF1-47E4-8189-50D1680E767E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Cross", "4.2 - Cross", "{9C73EA24-FEC6-4BD2-BE62-D977D937150A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Infra.Data", "FreeSchool.Infra.Data\FreeSchool.Infra.Data.csproj", "{68C7A930-922F-4B5D-9AA7-57BF6572B787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Application", "FreeSchool.Application\FreeSchool.Application.csproj", "{3E12B30C-689A-4F1B-A05C-C216F734D8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Infra.Cross", "FreeSchool.Infra.Cross\FreeSchool.Infra.Cross.csproj", "{5D45B3EA-7BA4-4132-9D5C-92066E884ACF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{C1BC1CEB-9EEE-4593-A93C-E4A9FBF15548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSchool.Tests.Unit", "FreeSchool.Tests.Unit\FreeSchool.Tests.Unit.csproj", "{6738867E-1548-446E-AB1C-7C511FF4ABED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B448B531-25D1-49E1-A272-F2B6B686A8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B448B531-25D1-49E1-A272-F2B6B686A8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B448B531-25D1-49E1-A272-F2B6B686A8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B448B531-25D1-49E1-A272-F2B6B686A8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C7A930-922F-4B5D-9AA7-57BF6572B787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C7A930-922F-4B5D-9AA7-57BF6572B787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C7A930-922F-4B5D-9AA7-57BF6572B787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C7A930-922F-4B5D-9AA7-57BF6572B787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E12B30C-689A-4F1B-A05C-C216F734D8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E12B30C-689A-4F1B-A05C-C216F734D8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E12B30C-689A-4F1B-A05C-C216F734D8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E12B30C-689A-4F1B-A05C-C216F734D8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D45B3EA-7BA4-4132-9D5C-92066E884ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D45B3EA-7BA4-4132-9D5C-92066E884ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D45B3EA-7BA4-4132-9D5C-92066E884ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D45B3EA-7BA4-4132-9D5C-92066E884ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6738867E-1548-446E-AB1C-7C511FF4ABED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6738867E-1548-446E-AB1C-7C511FF4ABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6738867E-1548-446E-AB1C-7C511FF4ABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6738867E-1548-446E-AB1C-7C511FF4ABED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B448B531-25D1-49E1-A272-F2B6B686A8F4} = {86475EE7-912E-4C38-B5FA-ED8A76B867EF}
+		{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516} = {F187E5B6-39A9-4B8C-95F1-68AF260E65B0}
+		{E34BFB34-7CF1-47E4-8189-50D1680E767E} = {9CAB1C94-D070-4649-992F-5AF365D14DC7}
+		{9C73EA24-FEC6-4BD2-BE62-D977D937150A} = {9CAB1C94-D070-4649-992F-5AF365D14DC7}
+		{68C7A930-922F-4B5D-9AA7-57BF6572B787} = {E34BFB34-7CF1-47E4-8189-50D1680E767E}
+		{3E12B30C-689A-4F1B-A05C-C216F734D8D3} = {518D01A3-D4D8-4147-A518-9D413A03A96A}
+		{5D45B3EA-7BA4-4132-9D5C-92066E884ACF} = {9C73EA24-FEC6-4BD2-BE62-D977D937150A}
+		{6738867E-1548-446E-AB1C-7C511FF4ABED} = {C1BC1CEB-9EEE-4593-A93C-E4A9FBF15548}
+	EndGlobalSection
+EndGlobal

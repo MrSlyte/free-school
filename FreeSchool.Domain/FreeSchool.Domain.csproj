@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE6B0FEC-3119-41DE-94E8-79C0BB8AB516}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FreeSchool.Domain</RootNamespace>
+    <AssemblyName>FreeSchool.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Activity.cs" />
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Entities\Document.cs" />
+    <Compile Include="Entities\FrequencyJob.cs" />
+    <Compile Include="Entities\Job.cs" />
+    <Compile Include="Entities\JobRole.cs" />
+    <Compile Include="Entities\Curse.cs" />
+    <Compile Include="Entities\ItemActivity.cs" />
+    <Compile Include="Entities\Module.cs" />
+    <Compile Include="Entities\ModulePerCurse.cs" />
+    <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\PersonPerCurse.cs" />
+    <Compile Include="Entities\Responsible.cs" />
+    <Compile Include="Entities\School.cs" />
+    <Compile Include="Entities\StatusStudent.cs" />
+    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\Task.cs" />
+    <Compile Include="Entities\TypeActivity.cs" />
+    <Compile Include="Entities\TypeAddress.cs" />
+    <Compile Include="Entities\TypeApprobationNote.cs" />
+    <Compile Include="Entities\TypeContact.cs" />
+    <Compile Include="Entities\TypeDocument.cs" />
+    <Compile Include="Entities\TypeResponsible.cs" />
+    <Compile Include="Entities\TypeStudent.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\Worker.cs" />
+    <Compile Include="Enums\EnumTypeContact.cs" />
+    <Compile Include="Enums\EnumTypeDocument.cs" />
+    <Compile Include="Enums\EnumTypeResponsible.cs" />
+    <Compile Include="Enums\EnumTypeStudent.cs" />
+    <Compile Include="Interfaces\IDelEntity.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IEntityEnum.cs" />
+    <Compile Include="Interfaces\Repositories\IBaseRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IPersonRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IStudentRepository.cs" />
+    <Compile Include="Interfaces\Services\IBaseService.cs" />
+    <Compile Include="Interfaces\Services\IPersonService.cs" />
+    <Compile Include="Interfaces\Services\IStudentService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseService.cs" />
+    <Compile Include="Services\PersonService.cs" />
+    <Compile Include="Services\StudentService.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
